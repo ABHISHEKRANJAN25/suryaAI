@@ -1,0 +1,591 @@
+ {
+    scroll-behavior: smooth;
+  }
+  /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #242323;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  h1, h2 {
+    font-weight: bold;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #7ea0c4;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333193;
+  }
+  
+  .navbar-brand img {
+    width: 60px; /* Adjust logo size */
+    margin-right: 10px; /* Spacing between logo and text */
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #e36307;
+    font-size: 1.1rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    background-color: #08e848;
+    border-radius: 5px;
+    color: #7e8262;
+  }
+  
+  /* Welcome Section */
+  #home {
+    background-color: #efff0a;
+    color: #965b03;
+    padding: 100px 0;
+  }
+  
+  #home h1 {
+    font-size: 3.5rem;
+  }
+  
+  #home .intro-text {
+    font-size: 1.25rem;
+    color: #0d1e81;
+    margin-top: 20px;
+  }
+  
+  #home .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+  
+  #home .btn-primary {
+    background-color: #17d339;
+    border: none;
+    color: #223b9f;
+  }
+  
+  #home .btn-outline-primary {
+    border-color: #000000;
+    color: #e70b1d;
+  }
+  
+  #home .btn-outline-primary:hover {
+    background-color: #841f20;
+    color: #06070c;
+  }
+  
+  /* Hero Slider Section */
+  .carousel-item {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay */
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #00ddff;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.25rem;
+    margin: 20px 0;
+  }
+  
+  .carousel-caption .btn {
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    color: #f90808;
+    background-color: #ffdd57;
+    border: none;
+  }
+  
+  .carousel-control-prev-icon, 
+  .carousel-control-next-icon {
+    background-color: #fc0202;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  /*Ground section
+  /* Section Styling */
+.model-comparison-section {
+  background-color: #6c7b8b;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Section Heading */
+.section-heading {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #931e1e;
+  margin-bottom: 20px;
+}
+
+/* Section Description */
+.section-description {
+  font-size: 1.2em;
+  color: #ede509;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Container for Comparison Images */
+.comparison-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+/* Individual Model Styling */
+.model {
+  text-align: center;
+}
+
+/* Round Image Styling */
+.model-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #0f4864;
+  transition: transform 0.3s ease;
+}
+
+/* Image Hover Effect */
+.model-image:hover {
+  transform: scale(1.1);
+}
+
+/* Caption for Each Image */
+.model-caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #333;
+}
+
+  
+  /* About Section */
+  #about {
+    background-color: #5c4d4d;
+    padding: 80px 0;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    color: #acb209;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    
+  /* Our Team Section */
+#our-team {
+    background-color: #0b0a0a; /* Light grey background */
+    padding: 80px 0;
+    border-radius: 10px;
+  }
+  
+  #our-team h2 {
+    font-size: 2.5rem;
+    color: #308f4e;
+    margin-bottom: 20px;
+  }
+  
+  #our-team p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .team-member {
+    background-color: #151515; /* White background for each member */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 30px; /* Space between team members */
+    transition: transform 0.3s; /* Transition for hover effect */
+  }
+  
+  .team-member:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .team-member img {
+    width: 120px; /* Fixed width for images */
+    height: 120px; /* Fixed height for images */
+    margin-bottom: 15px; /* Space below images */
+  }
+  
+  
+  /* Footer Section */
+  footer {
+    background-color: #343a40;
+    padding: 20px 0;
+    color: #783232;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    #home h1 {
+      font-size: 2.5rem;
+    }
+  
+    .carousel-caption h1 {
+      font-size: 2rem;
+    }
+  
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+  
+    .team-member img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
+  /* Get Started Section */ 
+  /* Section Styling */
+#get-started {
+  background-color: #5bc0ef; /* Light background color */
+  padding: 40px 0; /* Vertical padding */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading Styling */
+#get-started h2 {
+  font-size: 2.5em; /* Font size */
+  color: #0056b3; /* Dark blue color */
+  margin-bottom: 15px; /* Space below heading */
+}
+
+/* Paragraph Styling */
+#get-started p {
+  font-size: 1.2em; /* Font size */
+  color: #333; /* Dark color */
+}
+
+/* Form Group Styling */
+.form-group label {
+  font-weight: bold; /* Bold label */
+  color: #333; /* Dark color */
+}
+
+/* Button Styling */
+.btn-success {
+  background-color: #28a745; /* Green color */
+  border-color: #28a745; /* Border color */
+}
+
+/* Button Hover Effect */
+.btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+  border-color: #1e7e34; /* Darker border on hover */
+}
+
+
+    /* Hero Slider Section */
+.carousel-item {
+    height: 100vh; /* Full viewport height */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    position: relative; /* Positioning for overlay */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with transparency */
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ade1ff;
+  }
+  
+  .carousel-caption h1 {
+    font-size: 3rem; /* Large heading */
+  }
+  
+  .carousel-caption p {
+    font-size: 1.25rem; /* Subtitle size */
+    margin: 20px 0; /* Margin between heading and button */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #007bff; /* Background color for arrows */
+    border-radius: 50%; /* Round the arrows */
+  }
+  
+  .carousel-indicators {
+    bottom: 10px; /* Position indicators */
+  }
+  
+  .carousel-indicators li {
+    background-color: #007bff; /* Color for active indicators */
+  }
+  
+  /* What is Surya AI Section */
+#what-is-surya-ai {
+    background-color: #cac092; /* Light blue background */
+    padding: 80px 20px; /* Padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  #what-is-surya-ai h2 {
+    font-size: 2.5rem; /* Larger heading */
+    color: #070707; /* Main color for headings */
+    margin-bottom: 20px; /* Space below heading */
+  }
+  
+  #what-is-surya-ai p {
+    font-size: 1.2rem; /* Font size for paragraphs */
+    color: #120c8e; /* Text color */
+    line-height: 1.6; /* Line height for better readability */
+  }
+  
+  #what-is-surya-ai .text-justify {
+    text-align: justify; /* Justify text for cleaner appearance */
+    margin: 0 auto; /* Center paragraph */
+    max-width: 800px; /* Max width for paragraph */
+  }
+  
+  }
+  /* Learn More Section */
+#learn-more {
+  background-color: #f0f8ff; /* Light background for the section */
+  padding: 80px 20px; /* Padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#learn-more h2 {
+  font-size: 2.5rem; /* Larger heading */
+  color: #007bff; /* Main color for headings */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+#learn-more p {
+  font-size: 1.2rem; /* Font size for paragraphs */
+  color: #333; /* Text color */
+  line-height: 1.6; /* Line height for better readability */
+}
+
+#learn-more .text-justify {
+  text-align: justify; /* Justify text for cleaner appearance */
+  margin: 0 auto; /* Center paragraph */
+  max-width: 800px; /* Max width for paragraph */
+}
+
+#learn-more .btn {
+  background-color: #007bff; /* Button color */
+  border: none; /* No border */
+  transition: background-color 0.3s, transform 0.3s; /* Transition for hover effect */
+}
+
+#learn-more .btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+/* FAQs Section */
+#faqs {
+  background-color: #f0f8ff; /* Light background for the section */
+  padding: 80px 20px; /* Padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#faqs h2 {
+  font-size: 2.5rem; /* Larger heading */
+  color: #007bff; /* Main color for headings */
+  margin-bottom: 20px; /* Space below heading */
+}
+
+#faqs p {
+  font-size: 1.2rem; /* Font size for paragraphs */
+  color: #333; /* Text color */
+  line-height: 1.6; /* Line height for better readability */
+}
+
+.card {
+  border: none; /* Remove default card border */
+  margin-bottom: 10px; /* Space between cards */
+}
+
+.btn-link {
+  color: #007bff; /* Button color */
+  font-weight: bold; /* Bold text */
+  text-decoration: none; /* Remove underline */
+}
+
+.btn-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.card-body {
+  background-color: #549ac5; /* White background for answers */
+  padding: 15px; /* Padding for answer content */
+  border-radius: 5px; /* Rounded corners for answer box */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for answer box */
+}
+/* Footer Section */
+#footer {
+  background-color: #222; /* Dark background for footer */
+  color: #fff; /* White text color */
+  padding: 40px 20px; /* Padding for spacing */
+}
+
+#footer h4 {
+  color: #007bff; /* Bright color for headings */
+}
+
+#footer .form-control {
+  border-radius: 5px; /* Rounded corners for input fields */
+  background-color: #333; /* Darker background for input fields */
+  color: #fff; /* White text color for input fields */
+  border: 1px solid #555; /* Border color */
+}
+
+#footer .form-control::placeholder {
+  color: #ccc; /* Placeholder color */
+}
+
+#footer .btn {
+  background-color: #007bff; /* Button color */
+  border: none; /* No border */
+  transition: background-color 0.3s, transform 0.3s; /* Transition for hover effect */
+}
+
+#footer .btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+#footer p {
+  margin: 10px 0; /* Space above and below paragraphs */
+}
+
+#footer i {
+  margin-right: 5px; /* Space between icon and text */
+}
+.logo-img {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.logo-img:hover {
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+/* Telegram Bot Section Styling */
+.telegram-section {
+  background-color: #f5f5f5; /* Light background */
+  padding: 60px 20px; /* Padding for space */
+  margin-top: 50px; /* Margin to create separation */
+  border-top: 5px solid #007bff; /* Border on top */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow effect */
+}
+
+.telegram-section h2 {
+  font-size: 2.5rem; /* Large heading size */
+  color: #007bff; /* Brand color */
+  margin-bottom: 20px;
+}
+
+.telegram-section p {
+  font-size: 1.2rem; /* Medium font size for description */
+  color: #555; /* Dark grey for text */
+  margin-bottom: 30px;
+}
+
+.telegram-btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #0088cc; /* Telegram blue */
+  color: white; /* White text */
+  padding: 15px 30px; /* Padding for button */
+  font-size: 1.2rem; /* Button text size */
+  border-radius: 50px; /* Rounded corners for button */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions for hover */
+}
+
+.telegram-btn:hover {
+  background-color: #007bff; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.telegram-logo {
+  width: 40px; /* Size of Telegram logo */
+  height: auto;
+  margin-right: 10px; /* Space between logo and text */
+  vertical-align: middle; /* Align logo with text */
+}
+/* Global Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
